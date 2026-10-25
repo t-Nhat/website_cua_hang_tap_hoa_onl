@@ -1,0 +1,48 @@
+===================================================================
+   HƯỚNG DẪN KHỞI CHẠY TIỆM HOA TƯƠI NHƯ NGỌC (BACHHOANHUNGOC.COM)
+===================================================================
+
+Dự án được xây dựng bằng:
+- JavaScript thuần (.js)
+- Next.js 16 (App Router + Turbopack)
+- React 19
+- Tailwind CSS
+- Lucide Icons
+
+-------------------------------------------------------------------
+CÁC BƯỚC ĐỂ CHẠY TRÊN MÁY TÍNH CỦA BẠN:
+-------------------------------------------------------------------
+1. Đảm bảo máy tính đã cài đặt NodeJS (Node 18.x, 20.x hoặc mới hơn).
+   Kiểm tra bằng lệnh: node -v
+
+2. Mở cửa sổ Terminal / PowerShell / Command Prompt tại thư mục này.
+
+3. Cài đặt các gói thư viện phụ thuộc:
+   npm install
+
+4. Khởi chạy máy chủ phát triển (Development Server):
+   npm run dev
+
+5. Mở trình duyệt web và truy cập địa chỉ:
+   http://localhost:3000
+
+-------------------------------------------------------------------
+DANH SÁCH 10 CHỨC NĂNG CHÍNH ĐÃ HOÀN THÀNH (FILE .JS):
+-------------------------------------------------------------------
+1. Trang chủ hoa tươi: http://localhost:3000/
+2. Xem sản phẩm hoa tươi: http://localhost:3000/collections/all
+3. Chi tiết hoa tươi: http://localhost:3000/products/bo-hoa-hong-do-ecuador-kieu-sa
+4. Tìm kiếm hoa (theo tên, giá, loại): http://localhost:3000/search
+5. Giỏ hàng: http://localhost:3000/cart
+6. Đặt hàng (Nhập thông tin người nhận hoa): http://localhost:3000/checkout
+7. Thanh toán (COD, VietQR tự động, MoMo): http://localhost:3000/checkout
+8. Theo dõi tiến độ đơn hoa (5 bước timeline): http://localhost:3000/order-tracking
+9. Quản lý sản phẩm (Admin Thêm/Sửa/Xóa hoa): http://localhost:3000/admin
+10. Thống kê & Báo cáo doanh thu: http://localhost:3000/admin (Tab Thống kê doanh thu)
+
+-------------------------------------------------------------------
+TÀI KHOẢN DÙNG THỬ (DEMO 1-CLICK TẠI TRANG ĐĂNG NHẬP):
+-------------------------------------------------------------------
+- Khách Hàng: khachhang@hoatuoi.vn / 123456
+- Quản Trị Viên (Admin): admin@hoatuoi.vn / admin123
+===================================================================

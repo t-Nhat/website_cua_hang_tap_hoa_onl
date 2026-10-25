@@ -1,13 +1,19 @@
-﻿# Dependencies & Build
+# Dependencies & Build
 node_modules/
 dist/
 build/
+.next/
+out/
 *.log
+*.tsbuildinfo
+next-env.d.ts
 
 # Environment variables
 .env
-.env.local
+.env*.local
 
-# IDE
+# IDE & OS
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
